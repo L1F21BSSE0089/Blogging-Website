@@ -14,7 +14,7 @@ jobs:
       - name: Install Parcel
         run: npm install parcel-bundler
       - name: Build the static website
-        run: npx parcel build src/index.html
+        run: npx parcel build src/home.html
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
